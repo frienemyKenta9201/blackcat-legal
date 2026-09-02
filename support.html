@@ -1,0 +1,210 @@
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="日用品AI予測のサポートページです。">
+  <title>日用品AI予測 サポート</title>
+
+  <style>
+    :root {
+      color-scheme: light;
+      --background: #f5f7f6;
+      --surface: #ffffff;
+      --text: #202624;
+      --muted: #5f6b67;
+      --accent: #287a61;
+      --accent-soft: #eaf5f1;
+      --border: #dfe7e3;
+      --shadow: 0 8px 24px rgba(26, 52, 43, 0.06);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Hiragino Sans",
+        "Yu Gothic",
+        "YuGothic",
+        "Noto Sans JP",
+        sans-serif;
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    main {
+      width: min(100% - 32px, 720px);
+      margin: 0 auto;
+      padding: 48px 0;
+    }
+
+    .page-header {
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.75rem, 6vw, 2.25rem);
+      line-height: 1.4;
+      letter-spacing: 0.02em;
+    }
+
+    .intro {
+      margin: 12px 0 0;
+      color: var(--muted);
+    }
+
+    .card {
+      margin-top: 20px;
+      padding: 28px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      box-shadow: var(--shadow);
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 1.25rem;
+      line-height: 1.5;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    .contact {
+      padding: 14px 16px;
+      background: var(--accent-soft);
+      border-radius: 10px;
+      overflow-wrap: anywhere;
+    }
+
+    .contact strong {
+      display: inline-block;
+      margin-right: 0.4em;
+    }
+
+    ul {
+      margin: 12px 0 0;
+      padding-left: 1.4em;
+    }
+
+    li + li {
+      margin-top: 6px;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 600;
+      text-underline-offset: 0.2em;
+    }
+
+    a:hover {
+      text-decoration-thickness: 2px;
+    }
+
+    a:focus-visible {
+      outline: 3px solid rgba(40, 122, 97, 0.3);
+      outline-offset: 3px;
+      border-radius: 3px;
+    }
+
+    footer {
+      margin-top: 32px;
+      color: var(--muted);
+      font-size: 0.875rem;
+      text-align: center;
+    }
+
+    @media (max-width: 520px) {
+      main {
+        width: min(100% - 24px, 720px);
+        padding: 32px 0;
+      }
+
+      .card {
+        padding: 22px 20px;
+        border-radius: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header class="page-header">
+      <h1>日用品AI予測 サポート</h1>
+      <p class="intro">
+        「日用品AI予測」をご利用いただきありがとうございます。
+      </p>
+    </header>
+
+    <section class="card" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">お問い合わせ</h2>
+
+      <p>
+        アプリに関するご質問、不具合のご報告、ご要望がある場合は、
+        下記の連絡先までお問い合わせください。
+      </p>
+
+      <p class="contact">
+        <strong>メール：</strong>
+        <a href="mailto:byteyoh@gmail.com">byteyoh@gmail.com</a>
+      </p>
+
+      <p>
+        不具合についてお問い合わせいただく場合は、
+        可能であれば以下の情報をご記載ください。
+      </p>
+
+      <ul>
+        <li>ご利用のiPhone機種</li>
+        <li>iOSのバージョン</li>
+        <li>発生した問題の内容</li>
+        <li>問題が発生するまでの操作手順</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="about-heading">
+      <h2 id="about-heading">アプリについて</h2>
+
+      <p>
+        日用品AI予測は、日用品の購入・使い切りを記録し、
+        使用ペースをもとに次に使い切る時期を予測するアプリです。
+      </p>
+    </section>
+
+    <section class="card" aria-labelledby="privacy-heading">
+      <h2 id="privacy-heading">プライバシー</h2>
+
+      <p>
+        個人情報の取り扱いについては、
+        <a href="https://frienemykenta9201.github.io/blackcat-legal/">
+          プライバシーポリシー
+        </a>
+        をご確認ください。
+      </p>
+    </section>
+
+    <footer>
+      <small>&copy; 2026 BLACKCAT</small>
+    </footer>
+  </main>
+</body>
+</html>
